@@ -120,7 +120,6 @@ nav{
               background-color: transparent;
               border: 0;
               cursor: pointer;
-              background-color: gray;
               outline: 0;
 
               i{
@@ -271,6 +270,10 @@ header{
                      font-size: 1rem;
               }
        }
+       .welcome-note{
+              font-size: 1rem;
+              top: 15vh;
+       }
 }
 
 @media screen and (max-width:568px){
@@ -350,6 +353,7 @@ header{
        .header-container{
               img{
                      height: 30vh !important;
+                     margin-top: -12vh;
               }
        }
        .header-off-box{
