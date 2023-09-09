@@ -273,8 +273,8 @@ header {
     font-size: 1rem;
   }
   .welcome-note {
-    font-size: 1rem;
-    top: 15vh;
+    font-size: 2rem;
+    top: 25vh;
   }
 }
 @media screen and (max-width: 568px) {
@@ -346,5 +346,9 @@ header {
   }
   .header-off-box p {
     font-size: 0.7rem;
+  }
+  .welcome-note {
+    font-size: 1rem;
+    top: 15vh;
   }
 }/*# sourceMappingURL=style.css.map */
