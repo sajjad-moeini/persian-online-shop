@@ -39,6 +39,15 @@ ul {
   cursor: pointer;
 }
 
+.welcome-note {
+  position: absolute;
+  top: 20vh;
+  width: 100vw;
+  font-size: 2.5rem;
+  color: #fff;
+  text-align: center;
+}
+
 nav {
   position: fixed;
   top: 0;

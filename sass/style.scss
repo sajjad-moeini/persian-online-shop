@@ -32,7 +32,14 @@ ul{list-style: none;}
        z-index: 4; 
        cursor: pointer;
 }
-
+.welcome-note{
+       position: absolute;
+       top: 20vh;
+       width: 100vw;
+       font-size: 2.5rem;
+       color: #fff;
+       text-align: center;
+}
 //////////////////////// navbar start
 nav{
        position: fixed;
@@ -354,6 +361,6 @@ header{
                      font-size: .7rem;
               }
        }
-       
+
 }
 
