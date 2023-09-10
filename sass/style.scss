@@ -364,6 +364,24 @@ header{
     
 }
 /////store pic end
+/// 
+/// //new products section start
+.new-products{
+       @extend #top-sellers
+}
+.new-product-title{
+       @extend .top-sellers-title
+}
+.new-products-boxes-container{
+       @extend .top-seller-boxes-container
+}
+.new-product-box{
+       @extend .top-seller-box
+}
+.new-product-box-details{
+       @extend .top-seller-box-details
+}
+/// //new products section end
 
 
 @media screen and (max-width:1044px){

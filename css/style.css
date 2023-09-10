@@ -284,7 +284,7 @@ header {
   color: rgb(74, 73, 73);
 }
 
-#top-sellers {
+#top-sellers, .new-products {
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -292,19 +292,19 @@ header {
   margin-top: 5vh !important;
 }
 
-.top-sellers-title {
+.top-sellers-title, .new-product-title {
   width: fit-content;
   text-align: center;
   border-bottom: 4px solid gray;
 }
 
-.top-seller-boxes-container {
+.top-seller-boxes-container, .new-products-boxes-container {
   width: 95%;
   display: flex;
   flex-wrap: wrap;
 }
 
-.top-seller-box {
+.top-seller-box, .new-product-box {
   margin-top: 5vh;
   width: 23%;
   height: 40vh;
@@ -315,23 +315,23 @@ header {
   overflow: hidden;
   background-color: rgba(128, 128, 128, 0.317);
 }
-.top-seller-box img {
+.top-seller-box img, .new-product-box img {
   width: 100%;
   height: 75%;
 }
 
-.top-seller-box-details {
+.top-seller-box-details, .new-product-box-details {
   width: 100%;
   height: 25%;
 }
-.top-seller-box-details .d-flex {
+.top-seller-box-details .d-flex, .new-product-box-details .d-flex {
   justify-content: space-around;
   align-items: center;
 }
-.top-seller-box-details .d-flex h5 {
+.top-seller-box-details .d-flex h5, .new-product-box-details .d-flex h5 {
   margin-right: -5%;
 }
-.top-seller-box-details .d-flex button {
+.top-seller-box-details .d-flex button, .new-product-box-details .d-flex button {
   font-size: 1rem;
   background-color: #48b0c7;
   padding: 0.8vh 1vw;
@@ -341,10 +341,10 @@ header {
   cursor: pointer;
   transition: all 0.5s;
 }
-.top-seller-box-details .d-flex button:hover {
+.top-seller-box-details .d-flex button:hover, .new-product-box-details .d-flex button:hover {
   background-color: #1c768a;
 }
-.top-seller-box-details h3 {
+.top-seller-box-details h3, .new-product-box-details h3 {
   margin-right: 10%;
   margin-top: 2%;
 }
@@ -404,7 +404,7 @@ header {
   .suggest-box-text h5 {
     font-size: 0.5rem;
   }
-  .top-seller-box {
+  .top-seller-box, .new-product-box {
     width: 45% !important;
   }
   .store-pic p {
@@ -488,13 +488,13 @@ header {
     font-size: 1rem;
     top: 15vh;
   }
-  .top-seller-box h3 {
+  .top-seller-box h3, .new-product-box h3 {
     font-size: 0.9rem;
   }
-  .top-seller-box .d-flex h5 {
+  .top-seller-box .d-flex h5, .new-product-box .d-flex h5 {
     font-size: 0.5rem;
   }
-  .top-seller-box .d-flex button {
+  .top-seller-box .d-flex button, .new-product-box .d-flex button {
     padding-left: 1vw;
     padding-right: 1vw;
   }
