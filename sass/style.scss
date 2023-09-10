@@ -381,7 +381,47 @@ header{
 .new-product-box-details{
        @extend .top-seller-box-details
 }
-/// //new products section end
+
+///////  new product sectio finish///
+/// 
+/// off and unique st////////
+.unique-style{
+       width: 100%;
+       display: flex;
+       margin-top: 10vh;
+       height: 30vh;
+       background: url(../pics/bg/HD-wallpaper-fashion-models-models-beautiful-girls-female-and-men-casual-clothes-fashion-beautiful-boys.jpg);
+       background-size: cover;
+       background-attachment: fixed;
+}
+.unique-style-container{
+       width: 100%;
+       height: 100%;
+       background-color: rgba(128, 128, 128, 0.422);
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: space-around;
+       h1{
+              color: #fff;
+       }
+       button{
+              font-size: 1rem;
+              padding: .7vh 1vw;
+              border: 0;
+              border-radius: .5vw;
+              background-color: #48b0c7;
+              color: #fff;
+              transition: all .5s;
+              cursor: pointer;
+              &:hover{
+                     background-color: #1c768a;
+              }
+       }
+}
+
+
+/// off and unique finish////////
 
 
 @media screen and (max-width:1044px){
