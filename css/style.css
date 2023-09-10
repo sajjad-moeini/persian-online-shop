@@ -168,15 +168,14 @@ nav {
 
 .navlinks-container {
   display: flex;
-  width: 50%;
-  margin-top: 2vh;
+  width: 100%;
   justify-content: center;
 }
 .navlinks-container li {
   color: rgba(255, 255, 255, 0.8862745098);
   font-size: 1.3rem;
   font-weight: 500;
-  padding: 2vh 1vw !important;
+  padding: 1vh 1vw !important;
   cursor: pointer;
   height: 100%;
   transition: all 0.5s;
@@ -564,7 +563,7 @@ footer {
     width: 100% !important;
   }
 }
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 608px) {
   nav {
     position: fixed;
     padding-top: 10vh;
@@ -626,6 +625,8 @@ footer {
   .account-item:hover ul {
     top: 35 !important;
   }
+}
+@media screen and (max-width: 568px) {
   .header-container img {
     height: 30vh !important;
     margin-top: -12vh;
@@ -656,5 +657,11 @@ footer {
   }
   .unique-style-container h1 {
     font-size: 1.4rem;
+  }
+  .why-us-inform h4 {
+    font-size: 1.1rem !important;
+  }
+  .why-us-inform p {
+    font-style: 0.3rem !important;
   }
 }/*# sourceMappingURL=style.css.map */

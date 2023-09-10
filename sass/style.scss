@@ -158,14 +158,13 @@ nav{
 
 .navlinks-container{
        display: flex;
-       width: 50%;
-       margin-top: 2vh;
+       width: 100%;
        justify-content: center;
        li{
               color: #ffffffe2;
               font-size: 1.3rem;
               font-weight: 500;
-              padding: 2vh 1vw !important;
+              padding: 1vh 1vw !important;
               cursor: pointer;   
               height: 100%;
               transition: all .5s;
@@ -600,8 +599,7 @@ footer{
        }
        
 }
-
-@media screen and (max-width:568px){
+@media screen and (max-width:608px){
        nav{
               position: fixed;
               padding-top: 10vh;
@@ -674,7 +672,10 @@ footer{
                             top: 35 !important;
                      }
               }
-       }
+       } 
+}
+@media screen and (max-width:568px){
+      
               
        .header-container{
               img{
@@ -718,6 +719,14 @@ footer{
        .unique-style-container{
               h1{
                      font-size: 1.4rem;
+              }
+       }
+       .why-us-inform{
+              h4{
+                     font-size: 1.1rem !important;
+              }
+              p{
+                     font-style: .3rem !important;
               }
        }
       
