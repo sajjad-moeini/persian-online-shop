@@ -315,6 +315,7 @@ header{
        text-align: center;
        border-bottom: 4px solid gray;
        cursor: pointer;
+       transition: all .5s;
        &:hover{
               border-bottom: 4px solid rgb(17, 82, 135);
               color: #555;

@@ -322,6 +322,7 @@ header {
   text-align: center;
   border-bottom: 4px solid gray;
   cursor: pointer;
+  transition: all 0.5s;
 }
 .top-sellers-title:hover, .why-us-title:hover, .new-product-title:hover {
   border-bottom: 4px solid rgb(17, 82, 135);
