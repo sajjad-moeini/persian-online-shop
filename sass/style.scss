@@ -422,6 +422,58 @@ header{
 
 
 /// off and unique finish////////
+/// 
+/// why us start////
+.why-us{
+       width: 100%;
+       margin-top: 10vh;
+       display: flex;
+       flex-direction: column;
+       align-items: center
+}
+.why-us-title{
+       @extend .top-sellers-title;
+       // margin: 0 auto;
+}
+.why-us-boxes{
+       width: 90%;
+       display: flex;
+       flex-wrap: wrap;
+}
+.why-us-box{
+       width: 35%;
+       height: 20vh;
+       margin: 5vh 5vw;
+       display: flex;
+       gap: 10vw;
+       position: relative;
+       background-color: rgba(128, 128, 128, 0.137);
+       border-radius: 2vw;
+       img{
+              position: absolute;
+              width: 25%;
+              right: -65;
+              top: -10;
+              height: 107%;
+              border-radius: 50%;
+       }
+}
+.why-us-inform{
+       height: 100%;
+       width: 50%;
+       margin-right: 15%;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       p{
+              color: rgba(0, 0, 0, 0.527);
+       }
+
+}
+.why-us-box-title{
+       font-size: 1.7rem;
+}
+/// why us finish////
 
 
 @media screen and (max-width:1044px){
@@ -474,6 +526,11 @@ header{
                      font-size: 1.7rem;
               }
        }
+       .why-us-box{
+              width: 100% !important;
+
+       }
+       
 }
 
 @media screen and (max-width:568px){
@@ -595,5 +652,6 @@ header{
                      font-size: 1.4rem;
               }
        }
+      
 }
 

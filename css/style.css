@@ -292,7 +292,7 @@ header {
   margin-top: 5vh !important;
 }
 
-.top-sellers-title, .new-product-title {
+.top-sellers-title, .why-us-title, .new-product-title {
   width: fit-content;
   text-align: center;
   border-bottom: 4px solid gray;
@@ -401,6 +401,55 @@ header {
   background-color: #1c768a;
 }
 
+.why-us {
+  width: 100%;
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.why-us-boxes {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.why-us-box {
+  width: 35%;
+  height: 20vh;
+  margin: 5vh 5vw;
+  display: flex;
+  gap: 10vw;
+  position: relative;
+  background-color: rgba(128, 128, 128, 0.137);
+  border-radius: 2vw;
+}
+.why-us-box img {
+  position: absolute;
+  width: 25%;
+  right: -65;
+  top: -10;
+  height: 107%;
+  border-radius: 50%;
+}
+
+.why-us-inform {
+  height: 100%;
+  width: 50%;
+  margin-right: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.why-us-inform p {
+  color: rgba(0, 0, 0, 0.527);
+}
+
+.why-us-box-title {
+  font-size: 1.7rem;
+}
+
 @media screen and (max-width: 1044px) {
   .logo-and-account-item-container {
     width: 50%;
@@ -445,6 +494,9 @@ header {
   }
   .store-pic p {
     font-size: 1.7rem;
+  }
+  .why-us-box {
+    width: 100% !important;
   }
 }
 @media screen and (max-width: 568px) {
