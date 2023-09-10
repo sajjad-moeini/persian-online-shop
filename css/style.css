@@ -450,6 +450,51 @@ header {
   font-size: 1.7rem;
 }
 
+.companys {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+  background-color: rgba(128, 128, 128, 0.185);
+  height: 15vh;
+  filter: grayscale(90%) !important;
+}
+
+.companys-container {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+.companys-container img {
+  width: 10% !important;
+  height: 50%;
+  border-radius: 50%;
+}
+
+footer {
+  width: 100vw;
+  height: 30vh;
+  background: url(../pics/bg/pexels-life-of-pix-8892.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10vh;
+}
+
+.first-footer-ul {
+  color: #fff;
+}
+.first-footer-ul li {
+  cursor: pointer;
+}
+
+.second-footer-ul a {
+  color: #fff;
+}
+
 @media screen and (max-width: 1044px) {
   .logo-and-account-item-container {
     width: 50%;
